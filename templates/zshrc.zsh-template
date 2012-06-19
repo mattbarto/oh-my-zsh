@@ -33,4 +33,5 @@ plugins=(git brew debian git git-flow github osx redis-cli python)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
+export WORKON_HOME=~/pyenv
+source /usr/local/bin/virtualenvwrapper.sh
