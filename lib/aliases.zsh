@@ -33,7 +33,8 @@ alias la='ls -lAh'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
-alias subl='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
 
 # git
 alias gl='git pull'
