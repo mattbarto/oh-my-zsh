@@ -46,11 +46,6 @@ ZSH_THEME="prose"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git brew debian git git-flow github osx redis-cli python)
 
-<<<<<<< HEAD
-=======
-source $ZSH/oh-my-zsh.sh
-
->>>>>>> 3b4dd6e403cc5720e86a0aff0bc16bd56269a273
 # User configuration
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -60,11 +55,7 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-<<<<<<< HEAD
-Preferred editor for local and remote sessions
-=======
 # Preferred editor for local and remote sessions
->>>>>>> 3b4dd6e403cc5720e86a0aff0bc16bd56269a273
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
@@ -85,9 +76,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-<<<<<<< HEAD
-=======
 
->>>>>>> 3b4dd6e403cc5720e86a0aff0bc16bd56269a273
 export WORKON_HOME=~/pyenv
 source /usr/local/bin/virtualenvwrapper.sh
