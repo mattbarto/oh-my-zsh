@@ -10,11 +10,7 @@ if [ -d "$ZSH" ]; then
 fi
 
 echo "\033[0;34mCloning Oh My Zsh...\033[0m"
-<<<<<<< HEAD
-hash git >/dev/null && /usr/bin/env git clone https://github.com/mattbarto/oh-my-zsh.git ~/.oh-my-zsh || {
-=======
 hash git >/dev/null 2>&1 && /usr/bin/env git clone https://github.com/mattbarto/oh-my-zsh.git $ZSH || {
->>>>>>> 3b4dd6e403cc5720e86a0aff0bc16bd56269a273
   echo "git not installed"
   exit
 }
